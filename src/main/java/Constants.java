@@ -27,15 +27,15 @@ class Constants {
     static final String BIRTHDAY_MONTH4 = "//*[@id=\"invoice-month-container\"]/div/ul/li[5]/a";
     static final String BIRTHDAY_YEAR_DROPDOWN = "//*[@id=\"invoice-year-container\"]/div/div/a";
     static final String BIRThDAY_YEAR1986 = "//*[@id=\"invoice-year-container\"]/div/ul/li[21]/a";
-    static final String PAYMENT_SCREEN = "//*[@id=\"credit_card_content\"]/div/ul/li/div/div/div[4]/div[2]/p/a";
+    static final String PAYMENT_SCREEN = "//*[@id=\"shippable-country\"]/div[1]/strong";
     static final String FORGOT_PASSWORD_BUTTON = "//*[@id=\"login-form\"]/div[5]/div/a";
     static final String CONSENT_PROMPT_SUBMIT = "consent_prompt_submit";
     static final String USERNAME_FIELD = "//*[@id=\"login-form\"]/div[1]/div/input";
     static final String PASSWORD_FIELD = "//*[@id=\"login-form\"]/div[2]/div/input";
-    static final String SECOND_SUGGESTION_ON_SEARCH_BAR = "//*[@id=\"eac-container-search-input\"]/ul[1]/li[1]/div[1]";
+    static final String FIRST_SUGGESTION_ON_SEARCH_BAR = "//*[@id=\"eac-container-search-input\"]/ul[1]/li[1]/div[1]";
     static final String SEARCH_BUTTON = "//*[@id=\"search\"]/button";
 
-     //ids
+    //ids
 
     static final String GO_TO_CHECK_OUT = "go_to_checkout";
     static final String LOG_IN_METHOD1 = "login-method1";
@@ -50,7 +50,6 @@ class Constants {
     static final String TERMS_AND_CONDITIONS = "privacy";
     static final String LOG_IN_BUTTON = "recaptcha-submit";
     static final String SEARCH_BAR = "search-input";
-
 
 
     //classes

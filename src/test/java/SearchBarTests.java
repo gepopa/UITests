@@ -3,7 +3,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestSearchBar extends WebDriverSetup {
+public class SearchBarTests extends WebDriverSetup {
 
     @BeforeClass
     @Override
@@ -21,7 +21,7 @@ public class TestSearchBar extends WebDriverSetup {
 
 
         wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath(Constants.SECOND_SUGGESTION_ON_SEARCH_BAR))).click();
+                By.xpath(Constants.FIRST_SUGGESTION_ON_SEARCH_BAR))).click();
 
         wait.until(ExpectedConditions
                 .presenceOfElementLocated(By.xpath(Constants.SEARCH_BUTTON))).click();

@@ -2,7 +2,7 @@
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class BuyFirstSuggestedProduct extends WebDriverSetup {
+public class BuyFirstSuggestedProductFlow extends WebDriverSetup {
 
 
     @BeforeClass
@@ -27,6 +27,7 @@ public class BuyFirstSuggestedProduct extends WebDriverSetup {
         AllElementsForBuyProduct.acceptTermsAndConditions();
         AllElementsForBuyProduct.goToPaymentScreen();
         AllElementsForBuyProduct.checkIfPaymentScreenIsDisplayed();
+
 
     }
 
